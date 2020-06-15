@@ -1,0 +1,22 @@
+{
+   "name": "Coro-nah-virus",
+   "version": "0.1.0",
+   "description": "CK Web Dev - github/ck2e14",
+   "icons": {
+     "128": "virus.png"
+   },
+   "manifest_version": 2,
+   "content_scripts": [
+     {
+      "matches": [
+          "http://*/*",
+         "https://*/*"
+        ],
+       "exclude_globs": [
+        ],
+       "js": ["script.js"],
+       "css": ["styles.css"]
+     }
+   ]
+}
+ 
