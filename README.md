@@ -1,5 +1,8 @@
 # Coro-nah-virus
+
 Chrome extension to block references to Covid-19 and Coronavirus! 
+
+JavaScript, Regex, CSS
 
 
 - Clone repo
